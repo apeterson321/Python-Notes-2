@@ -1,0 +1,9 @@
+'''List Method'''
+
+# the list() method casts strings into lists
+string = 'french fries'
+print(list(string))
+print()
+
+string = '0123456789'
+print(list(string))
