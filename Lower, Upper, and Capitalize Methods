@@ -1,0 +1,16 @@
+'''Lower, Upper, and Capitalize Methods'''
+
+# lower() forces all uppercase letters in a string to be lowercase 
+alt_string = "ThIs StRiNg Is A mEsS"
+print(alt_string.lower())
+print()
+
+# upper() forces all lowercase letters in a string to be uppercase
+lower_string = "strings are so versatile!"
+print(lower_string.upper())
+print()
+
+# capitalize() will capitalize the first character in the string (if it is a letter) and lowercase the rest of the letters
+lower_string = "This Isn't How We Write Sentences."
+print(lower_string.capitalize())
+print()
