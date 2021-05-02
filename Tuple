@@ -1,0 +1,32 @@
+'''Tuple'''
+
+# A tuple is an ordered, immutable collection of items. Can be declared using parenthesis as opposed to square brackets.
+
+a_tuple = (1, 2, 3)
+
+# Two Tuple Methods: .count() and .index()
+
+mvps = ('Allen Iverson', 'Tim Duncan', 'Tim Duncan', 'Kevin Garnett', 'Steve Nash', 'Steve Nash', 'Dirk Nowitzki', 'Kobe Bryant', 'LeBron James', 'LeBron James')
+
+print(mvps.index('Steve Nash')) # will return the index of where the item called occurred. 
+
+# However, if an item appears multiple times in the tuple, only the index of the first occurence of that item will be returned.
+
+print(mvps.count('Tim Duncan')) #Count will return how many times the parameter passed into the method call occurs in the tuple.
+print()
+
+# Single item tuples can be declared in the following formats:
+one_element_tup = (4)
+print(type(one_element_tup))
+
+one_element_tup = (4,)
+new_one_element_tup = 'a',
+other_one_element_tup = tuple([0.8])
+
+print(one_element_tup, new_one_element_tup, other_one_element_tup)
+print()
+
+# Tuples are immutable, but if objects within tuples are mutable, you can reference those objects and modify them
+bob_tuple = ('Bob', '70 inches', ['Denver, CO'])
+bob_tuple[2][0] = 'Atlanta, GA'
+print(bob_tuple)
