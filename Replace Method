@@ -1,0 +1,14 @@
+'''Replace Method'''
+
+# replace() will replace a specified part of the original string with a new substring
+# syntax –> some_string.replace(old, new, count)
+string = 'Did I speeel this right?'
+new_string = string.replace('speeel', 'spell')
+print(new_string)
+print()
+
+# The count argument will limit the number of times a string will be replaced.
+missing_string = "I have placeholder bike. I just bought placeholder more bike. Now, I have placeholder bikes."
+filled_string = missing_string.replace('placeholder', '1', 2)
+print(filled_string.replace('placeholder', '2'))
+print()
