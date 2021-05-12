@@ -1,0 +1,11 @@
+'''Add Method'''
+
+# This method is specific to sets and is used to add items to a set
+# Often applied when sets are used as accumulators
+
+def set_accumulator(n):
+    accum = set()
+    for x in range(n+1):
+        if x % 2 == 0:
+          accum.add(x) #adds the number to accum set 
+    return accum
